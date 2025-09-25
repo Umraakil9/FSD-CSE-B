@@ -12,7 +12,7 @@ function sendEmail(callback){
 }     
 function login(callback){
   setTimeout(()=>{
-    console.log("login function called");  
+    console.log("login function called"); 
     callback();
   },3000);
 }   
